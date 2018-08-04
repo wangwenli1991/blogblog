@@ -34,7 +34,7 @@ class CreatePasswordResetsTable extends Migration
 
 //下面全部为注释，本文摘自https://www.cnblogs.com/taotaoxixihaha/p/6640690.html
 //================================
-//　　php artisan make:migration create_comments_table
+//　　php artisan make:migration create_art_table
 //=================================
 //    public function up()
 //{
