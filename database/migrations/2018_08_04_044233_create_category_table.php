@@ -19,6 +19,7 @@ class CreateCategoryTable extends Migration
             $table->text('cate_title')->comment('分类标题');
             $table->text('cate_keywords')->comment('关键词');
             $table->text('cate_description')->comment('描述');
+            $table->text('cate_view')->comment('查看次数');
             $table->text('cate_order')->defautl(0)->comment('排序');
             $table->text('cate_pid')->comment('上级分类id');
             $table->timestamps();
