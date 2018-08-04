@@ -19,6 +19,9 @@
 
 26.数据库文章分类表的创建 
 
+
+php artisan make:migration create_category_table --create=category
+
  27.后台文章分类列表页模板导入及基...  .
 
   28.后台文章分类页多级分类列表
