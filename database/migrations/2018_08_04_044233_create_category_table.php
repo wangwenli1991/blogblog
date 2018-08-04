@@ -14,10 +14,13 @@ class CreateCategoryTable extends Migration
     public function up()
     {
         Schema::create('category', function (Blueprint $table) {
-            $table->increments('cate_id');
-            $table->increments('cate_name');
-            $table->increments('cate_title');
-            $table->increments('cate_view');
+            $table->increments('cate_id')->comment('id');
+            $table->string('cate_name')->comment('分类名称');
+            $table->text('cate_title')->comment('分类标题');
+            $table->text('cate_keywords')->comment('关键词');
+            $table->text('cate_description')->comment('描述');
+            $table->text('cate_order')->defautl(0)->comment('排序');
+            $table->text('cate_pid')->comment('上级分类id');
             $table->timestamps();
         });
     }
