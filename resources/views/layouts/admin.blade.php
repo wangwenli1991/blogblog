@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="{{asset('admin/style/css/ch-ui.admin.css')}}">
     <link rel="stylesheet" href="{{asset('admin/style/font/css/font-awesome.min.css')}}">
     <script type="text/javascript" src="{{asset('admin/style/js/jquery.js')}}"></script>
+    <script type="text/javascript" src="{{asset('admin/style/js/jquery.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('admin/style/js/ch-ui.admin.js')}}"></script>
     <script type="text/javascript" src="{{asset('admin/layer/layer.js')}}"></script>
 </head>
